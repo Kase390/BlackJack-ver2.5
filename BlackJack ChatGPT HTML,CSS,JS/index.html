@@ -1,0 +1,101 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="game">
+    <div class="area" id="dealer-area">
+      <div class="info">
+        <div class="name">Dealer</div>
+      </div>
+      <div id="dealer-hand" class="hand">
+        <div class="hand-total">Total: ?</div>
+      </div>
+    </div>
+    <div class="area" id="player-area">
+      <div class="name">Player</div>
+      <div class="info">
+        <div id="player-total" class="total"></div>
+      </div>
+        <div id="player-hand" class="hand">
+          <div class="hand-total">Total: ?</div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="deal-button">Deal</button>
+        <button id="hit-button">Hit</button>
+        <button id="stand-button">Stand</button>
+      </div>
+    </div>
+  </div>
+  <div class="card unwanted-card">
+    <!-- カードの画像はここに追加 -->
+    <img src="images/back.png" alt="background" class="unwanted-card">
+    <img src="images/spades/A.png" alt="Ace of Spades" class="unwanted-card">
+    <img src="images/spades/2.png" alt="Ace of Spades">
+    <img src="images/spades/3.png" alt="Ace of Spades">
+    <img src="images/spades/4.png" alt="Ace of Spades">
+    <img src="images/spades/5.png" alt="Ace of Spades">
+    <img src="images/spades/6.png" alt="Ace of Spades">
+    <img src="images/spades/7.png" alt="Ace of Spades">
+    <img src="images/spades/8.png" alt="Ace of Spades">
+    <img src="images/spades/9.png" alt="Ace of Spades">
+    <img src="images/spades/10.png" alt="Ace of Spades">
+    <img src="images/spades/J.png" alt="Ace of Spades">
+    <img src="images/spades/Q.png" alt="Ace of Spades">
+    <img src="images/spades/K.png" alt="Ace of Spades">
+    <img src="images/hearts/A.png" alt="Ace of hearts">
+    <img src="images/hearts/2.png" alt="Ace of hearts">
+    <img src="images/hearts/3.png" alt="Ace of hearts">
+    <img src="images/hearts/4.png" alt="Ace of hearts">
+    <img src="images/hearts/5.png" alt="Ace of hearts">
+    <img src="images/hearts/6.png" alt="Ace of hearts">
+    <img src="images/hearts/7.png" alt="Ace of hearts">
+    <img src="images/hearts/8.png" alt="Ace of hearts">
+    <img src="images/hearts/9.png" alt="Ace of hearts">
+    <img src="images/hearts/10.png" alt="Ace of hearts">
+    <img src="images/hearts/J.png" alt="Ace of hearts">
+    <img src="images/hearts/Q.png" alt="Ace of hearts">
+    <img src="images/hearts/K.png" alt="Ace of hearts">
+    <img src="images/diamonds/A.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/2.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/3.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/4.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/5.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/6.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/7.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/8.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/9.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/10.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/J.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/Q.png" alt="Ace of diamonds/">
+    <img src="images/diamonds/K.png" alt="Ace of diamonds/">
+    <img src="images/clubs/A.png" alt="Ace of clubs/">
+    <img src="images/clubs/2.png" alt="Ace of clubs/">
+    <img src="images/clubs/3.png" alt="Ace of clubs/">
+    <img src="images/clubs/4.png" alt="Ace of clubs/">
+    <img src="images/clubs/5.png" alt="Ace of clubs/">
+    <img src="images/clubs/6.png" alt="Ace of clubs/">
+    <img src="images/clubs/7.png" alt="Ace of clubs/">
+    <img src="images/clubs/8.png" alt="Ace of clubs/">
+    <img src="images/clubs/9.png" alt="Ace of clubs/">
+    <img src="images/clubs/10.png" alt="Ace of clubs/">
+    <img src="images/clubs/J.png" alt="Ace of clubs/">
+    <img src="images/clubs/Q.png" alt="Ace of clubs/">
+    <img src="images/clubs/K.png" alt="Ace of clubs/">
+    <!-- 他のカードの画像も同様に追加 -->
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
